@@ -8,6 +8,13 @@ import './style.css';
 function nav() {
     const navbarStyle = {
         backgroundColor: '#50237d',
+        fontFamily: 'Open Sans',
+    };
+
+    const titleStyle = {
+        fontFamily: 'Montserrat',
+        fontWeight: 'bold',
+        fontSize: '25px',
     };
 
     return (
@@ -15,7 +22,7 @@ function nav() {
             <Container className="d-flex justify-content-center">
                 < Navbar.Brand href="/#/home" >
                     <img src="/logo.png" alt="logo" width="30" height="30" className="d-inline-block align-text-top pe-1" />
-                    Wishsong
+                    <span style={titleStyle}>wishsong</span>
                 </Navbar.Brand >
                 <Navbar.Toggle aria-controls="basic-navbar-nav " />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">

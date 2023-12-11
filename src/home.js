@@ -11,9 +11,8 @@ import './style.css';
 import Footer from './footer';
 
 function Home() {
-
     const introBoxStyle = {
-        backgroundColor: 'rgba(197, 142, 187, 0.8)',
+        background: 'linear-gradient(109.6deg, rgba(243, 136, 136, 0.7) 11.2%, rgba(196, 157, 247, 0.7) 75.1%)',
         borderRadius: '15px',
         padding: '5%',
         margin: '5%',
@@ -29,11 +28,11 @@ function Home() {
                     <Col xs="12" className="d-flex align-items-center justify-content-center">
                         <div style={introBoxStyle} className='d-none d-sm-flex flex-column align-items-center justify-content-center'>
                             <h1 className='mb-3'>wishsong</h1>
-                            <h2>the perfect place to make a list of your favorite songs</h2>
+                            <h2>the perfect place to list your favorite songs</h2>
                         </div>
                         <div className='d-block d-sm-none flex-column align-items-center justify-content-center'>
                             <h1 className='mb-3'>wishsong</h1>
-                            <h2>the perfect place to make a list of your favorite songs</h2>
+                            <h2>the perfect place to list your favorite songs</h2>
                         </div>
                     </Col>
                 </Row>
