@@ -6,7 +6,10 @@ function Footer() {
         display: 'flex',
         justifyContent: 'flex-end',
         alignItems: 'center',
-        height: "50px",
+        width: '100%',
+        height: '40px',
+        position: 'fixed',
+        bottom: '0',
     };
 
     return (

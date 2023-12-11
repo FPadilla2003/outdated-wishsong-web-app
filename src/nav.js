@@ -9,6 +9,7 @@ function nav() {
     const navbarStyle = {
         backgroundColor: '#50237d',
         fontFamily: 'Open Sans',
+        width: '100%',
     };
 
     const titleStyle = {

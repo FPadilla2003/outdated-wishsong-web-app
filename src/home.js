@@ -21,9 +21,9 @@ function Home() {
     };
 
     return (
-        <div >
-            <Nav />
-            <Container fluid>
+        <div>
+            <Container fluid className='mainContent'>
+                <Nav />
                 <Row className="top-half">
                     <Col xs="12" className="d-flex align-items-center justify-content-center">
                         <div style={introBoxStyle} className='d-none d-sm-flex flex-column align-items-center justify-content-center'>
@@ -37,31 +37,30 @@ function Home() {
                     </Col>
                 </Row>
                 <Row className="bottom-half">
-                    <Col xs="4" className="d-flex align-items-center justify-content-center my-5">
+                    <Col xs="4" className="d-flex align-items-center justify-content-center py-5">
                         <div className="d-flex flex-column align-items-center justify-content-center">
                             <FaSearch size={50} />
                             <h3 className='mt-2'>search</h3>
                             <p>Search up any of your favorite songs</p>
                         </div>
                     </Col>
-                    <Col xs="4" className="d-flex align-items-center justify-content-center my-5">
+                    <Col xs="4" className="d-flex align-items-center justify-content-center py-5">
                         <div className="d-flex flex-column align-items-center justify-content-center">
                             <SiGenius size={50} />
                             <h3 className='mt-2'>read</h3>
                             <p>Find accurate lyrics from your favorite songs using Genius</p>
                         </div>
                     </Col>
-                    <Col xs="4" className="d-flex align-items-center justify-content-center my-5">
+                    <Col xs="4" className="d-flex align-items-center justify-content-center py-5">
                         <div className="d-flex flex-column align-items-center justify-content-center">
                             <FaList size={50} />
                             <h3 className='mt-2'>list</h3>
                             <p>Add songs to your curated profile's lists</p>
                         </div>
                     </Col>
-                </Row>
-                <Row>
                     <Footer />
                 </Row>
+
             </Container>
 
         </div >
