@@ -17,7 +17,7 @@
 .mainContent {
     min-height: 100vh;
     position: relative;
-    width: 100%;
+    width: inherit;
     padding: 0;
 }
 
@@ -40,7 +40,7 @@ h3 {
 }
 
 body {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     overflow-y: auto;
     width: 100vw;
 }

@@ -37,21 +37,21 @@ function Home() {
                     </Col>
                 </Row>
                 <Row className="bottom-half">
-                    <Col xs="4" className="d-flex align-items-center justify-content-center py-5">
+                    <Col xs="4" className="d-flex align-items-center justify-content-center my-5">
                         <div className="d-flex flex-column align-items-center justify-content-center">
                             <FaSearch size={50} />
                             <h3 className='mt-2'>search</h3>
                             <p>Search up any of your favorite songs</p>
                         </div>
                     </Col>
-                    <Col xs="4" className="d-flex align-items-center justify-content-center py-5">
+                    <Col xs="4" className="d-flex align-items-center justify-content-center my-5">
                         <div className="d-flex flex-column align-items-center justify-content-center">
                             <SiGenius size={50} />
                             <h3 className='mt-2'>read</h3>
                             <p>Find accurate lyrics from your favorite songs using Genius</p>
                         </div>
                     </Col>
-                    <Col xs="4" className="d-flex align-items-center justify-content-center py-5">
+                    <Col xs="4" className="d-flex align-items-center justify-content-center my-5">
                         <div className="d-flex flex-column align-items-center justify-content-center">
                             <FaList size={50} />
                             <h3 className='mt-2'>list</h3>

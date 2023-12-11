@@ -8,7 +8,7 @@ function Footer() {
         alignItems: 'center',
         width: '100%',
         height: '40px',
-        position: 'fixed',
+        position: 'relative',
         bottom: '0',
     };
 
