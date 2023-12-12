@@ -1,7 +1,8 @@
 .top-half {
     height: 600px;
     background-image: url("https://images.unsplash.com/photo-1619983081593-e2ba5b543168?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
+    background-size: inherit;
+    width: 100%;
     flex: 1;
 }
 
@@ -22,16 +23,14 @@
 }
 
 h1 {
-    color: '#9e4770';
     text-align: center;
-    font-family: 'Dela Gothic One';
+    font-family: 'Dela Gothic One', serif;
     font-size: 75px;
 }
 
 h2 {
-    color: '#2e2532';
     text-align: center;
-    font-family: 'Urbanist';
+    font-family: 'Urbanist', serif;
     font-size: 30px;
 }
 
@@ -42,5 +41,5 @@ h3 {
 body {
     overflow-x: hidden;
     overflow-y: auto;
-    width: 100vw;
+    width: 100%;
 }

@@ -23,10 +23,11 @@ function Home() {
     return (
         <div>
             <Container fluid className='mainContent'>
-                <Nav />
+                <Nav/>
                 <Row className="top-half">
                     <Col xs="12" className="d-flex align-items-center justify-content-center">
-                        <div style={introBoxStyle} className='d-none d-sm-flex flex-column align-items-center justify-content-center'>
+                        <div style={introBoxStyle}
+                             className='d-none d-sm-flex flex-column align-items-center justify-content-center'>
                             <h1 className='mb-3'>wishsong</h1>
                             <h2>the perfect place to list your favorite songs</h2>
                         </div>
@@ -39,29 +40,31 @@ function Home() {
                 <Row className="bottom-half">
                     <Col xs="4" className="d-flex align-items-center justify-content-center my-5">
                         <div className="d-flex flex-column align-items-center justify-content-center">
-                            <FaSearch size={50} />
+                            <FaSearch size={50}/>
                             <h3 className='mt-2'>search</h3>
                             <p>Search up any of your favorite songs</p>
                         </div>
                     </Col>
                     <Col xs="4" className="d-flex align-items-center justify-content-center my-5">
                         <div className="d-flex flex-column align-items-center justify-content-center">
-                            <SiGenius size={50} />
+                            <SiGenius size={50}/>
                             <h3 className='mt-2'>read</h3>
                             <p>Find accurate lyrics from your favorite songs using Genius</p>
                         </div>
                     </Col>
                     <Col xs="4" className="d-flex align-items-center justify-content-center my-5">
                         <div className="d-flex flex-column align-items-center justify-content-center">
-                            <FaList size={50} />
+                            <FaList size={50}/>
                             <h3 className='mt-2'>list</h3>
-                            <p>Add songs to your curated profile's lists</p>
+                            <p className=''>Add songs to your curated profile's lists</p>
                         </div>
                     </Col>
-                    <Footer />
                 </Row>
+                <div className="pb-5">
+                    <Footer/>
+                </div>
             </Container>
-        </div >
+        </div>
     );
 }
 

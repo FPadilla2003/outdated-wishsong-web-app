@@ -6,10 +6,13 @@ function Footer() {
         display: 'flex',
         justifyContent: 'flex-end',
         alignItems: 'center',
-        width: '100%',
+        width: '100vw',
         height: '40px',
-        position: 'relative',
-        bottom: '0',
+        position: 'absolute',
+        left: 0,
+        right: 0,
+        bottom: 0,
+        paddingRight: '2%',
     };
 
     return (
