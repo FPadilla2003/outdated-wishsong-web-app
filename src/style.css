@@ -1,9 +1,10 @@
 .top-half {
     height: 600px;
     background-image: url("https://images.unsplash.com/photo-1619983081593-e2ba5b543168?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: inherit;
-    width: 100%;
+    background-size: cover;
+    width: 100vw;
     flex: 1;
+    display: flex;
 }
 
 .bottom-half {
@@ -20,6 +21,16 @@
     position: relative;
     width: inherit;
     padding: 0;
+}
+
+.introText {
+    font-size: 15vw;
+    background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+    display: inline-block;
 }
 
 h1 {
