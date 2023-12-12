@@ -14,8 +14,8 @@ function Home() {
     const introBoxStyle = {
         background: 'linear-gradient(109.6deg, rgba(243, 136, 136, 0.7) 11.2%, rgba(196, 157, 247, 0.7) 75.1%)',
         borderRadius: '15px',
-        padding: '5%',
-        margin: '5vh 0%',
+        padding: '5vh',
+        margin: '5vh 0',
         maxWidth: '100%',
         height: '40vh',
     };
