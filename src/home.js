@@ -16,7 +16,7 @@ function Home() {
         borderRadius: '15px',
         padding: '5%',
         margin: '5%',
-        width: '80vw',
+        maxWidth: '100%',
         height: '40vh',
     };
 

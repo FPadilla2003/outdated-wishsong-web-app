@@ -12,7 +12,7 @@ function Footer() {
         left: 0,
         right: 0,
         bottom: 0,
-        paddingRight: '%',
+        paddingRight: '5%',
     };
 
 
