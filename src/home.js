@@ -25,7 +25,7 @@ function Home() {
         <div>
             <Container fluid className='mainContent'>
                 <Nav />
-                <Row className="top-half">
+                <Row className="top-half m-0 p-0">
                     <Col xs="12" className="d-flex align-items-center justify-content-center">
                         <div style={introBoxStyle}
                             className='d-none d-sm-flex flex-column align-items-center justify-content-center'>
