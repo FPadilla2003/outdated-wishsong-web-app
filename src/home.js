@@ -17,7 +17,7 @@ function Home() {
         padding: '5vh',
         margin: '5vh 0',
         maxWidth: '100%',
-        height: '40vh',
+        height: '60vh',
     };
 
 
