@@ -25,7 +25,7 @@ function Home() {
         <div>
             <Container fluid className='mainContent'>
                 <Nav />
-                <Row className="top-half m-0 p-0">
+                <Row className="top-half-home m-0 p-0">
                     <Col xs="12" className="d-flex align-items-center justify-content-center">
                         <div style={introBoxStyle}
                             className='d-none d-sm-flex flex-column align-items-center justify-content-center'>
@@ -37,7 +37,7 @@ function Home() {
                         </div>
                     </Col>
                 </Row>
-                <Row className="bottom-half px-4">
+                <Row className="bottom-half-home px-4">
                     <Col md="4" className="d-flex align-items-center justify-content-center my-5">
                         <div className="d-flex flex-column align-items-center justify-content-center text-center">
                             <FaSearch size={50} />
