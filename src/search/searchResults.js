@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 function SearchResults({ songResults }) {
 
     const songImageStyle = {
-        maxWidth: '25%',
+        width: '100px',
         paddingRight: '15px'
     }
 
@@ -13,7 +13,8 @@ function SearchResults({ songResults }) {
             <Col>
                 <a href={`https://genius.com${songResult.result.path}`}
                     target="_blank" rel="noreferrer noopener"
-                    className='d-flex align-items-center flex-row list-group-item'
+                    className='d-flex flex-row align-items-center list-group-item'
+                    style={{ width: '60vw' }}
                     key={index}>
                     <img className="img-fluid pr-2"
                         src={songResult.result.song_art_image_thumbnail_url}
