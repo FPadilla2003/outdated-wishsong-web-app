@@ -2,8 +2,8 @@ import './styles/App.css';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './home/home';
 import Search from './search/search';
-import Profile from './profile';
-import LoginPage from './login';
+import Profile from './users/profile';
+import LoginPage from './users/login';
 import ListsPage from './lists';
 
 function App() {
