@@ -3,7 +3,9 @@ import React from 'react';
 function SearchResults({ songResults }) {
 
     var results = songResults.map((songResult, index) => (
-        <a href={`https://genius.com${songResult.result.path}`} className='list-group-item' key={index}>
+        <a href={`https://genius.com${songResult.result.path}`}
+            target="_blank" rel="noreferrer noopener"
+            className='list-group-item' key={index}>
             <img className="w-25 mr-3" src={songResult.result.song_art_image_thumbnail_url} alt='song picture' />
             <span className=''>{songResult.result.full_title}</span>
         </a>));
