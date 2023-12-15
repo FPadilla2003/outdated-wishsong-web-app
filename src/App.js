@@ -6,6 +6,7 @@ import Profile from './profile';
 import LoginPage from './login';
 
 function App() {
+
   return (
     <HashRouter>
       <div>

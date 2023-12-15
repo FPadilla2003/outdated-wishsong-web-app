@@ -42,27 +42,27 @@ function Home() {
                         <div className="d-flex flex-column align-items-center justify-content-center text-center">
                             <FaSearch size={50} />
                             <h3 className='mt-2'>search</h3>
-                            <p>Search up any of your favorite songs</p>
+                            <p>search up any of your favorite songs</p>
                         </div>
                     </Col>
                     <Col md="4" className="d-flex align-items-center justify-content-center my-5">
                         <div className="d-flex flex-column align-items-center justify-content-center text-center">
                             <SiGenius size={50} />
                             <h3 className='mt-2'>read</h3>
-                            <p>Find accurate lyrics from your favorite songs using Genius</p>
+                            <p>find accurate lyrics from your favorite songs using Genius</p>
                         </div>
                     </Col>
                     <Col md="4" className="d-flex align-items-center justify-content-center my-5">
                         <div className="d-flex flex-column align-items-center justify-content-center text-center">
                             <FaList size={50} />
                             <h3 className='mt-2'>list</h3>
-                            <p>Add songs to your curated profile's lists</p>
+                            <p>add songs to your curated profile's lists</p>
                         </div>
                     </Col>
-                    <div className="pb-5">
-                        <Footer />
-                    </div>
                 </Row>
+                <div>
+                    <Footer />
+                </div>
             </Container>
         </div>
     );
