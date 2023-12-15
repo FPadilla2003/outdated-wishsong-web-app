@@ -13,7 +13,7 @@ function Search() {
     const [songResults, setSongResults] = useState([]);
 
     return (
-        <div>
+        <div className='m-0 p-0'>
             <Nav />
             <Container fluid className='p-0 m-0 flex-grow-1'>
                 <Row>
@@ -22,7 +22,7 @@ function Search() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs='12' style={{ minHeight: '35vh' }} className='d-flex bottom-half-search justify-content-center h-auto py-5'>
+                    <Col xs='12' style={{ minHeight: '50vh' }} className='d-flex bottom-half-search justify-content-center h-auto py-5'>
                         <SearchResults songResults={songResults} />
                     </Col>
                 </Row>
