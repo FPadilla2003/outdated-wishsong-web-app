@@ -1,9 +1,10 @@
-import './App.css';
+import './styles/App.css';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Home from './home';
-import Search from './search';
+import Home from './home/home';
+import Search from './search/search';
 import Profile from './profile';
 import LoginPage from './login';
+import ListsPage from './lists';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/lists" element={<ListsPage />} />"
         </Routes>
       </div>
     </HashRouter>

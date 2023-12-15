@@ -6,7 +6,7 @@ function SearchResults({ songResults }) {
         <li className='list-group-item' key={index}>{songResult.result.full_title}</li>))
 
     return (
-        <div className='d-flex flex-column align-items-center'>
+        <div className='d-flex flex-column align-items-center w-75'>
             <h2>results</h2>
             <ul className='list-group'>
                 {results}

@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.css';
-import './style.css';
+import '../styles/style.css';
 
 function nav() {
     const navbarStyle = {
@@ -28,10 +28,11 @@ function nav() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav " />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                     <Nav className='ms-auto'>
-                        <Nav.Link href="/#/home" className='text-white'>Home</Nav.Link>
-                        <Nav.Link href="/#/search" className='text-white'>Search</Nav.Link>
-                        <Nav.Link href="/#/profile" className='text-white'>Profile</Nav.Link>
-                        <Nav.Link href="/#/login" className='text-white'>Login</Nav.Link>
+                        <Nav.Link href="/#/home" className='text-white'>home</Nav.Link>
+                        <Nav.Link href="/#/search" className='text-white'>search</Nav.Link>
+                        <Nav.Link href="/#/lists" className='text-white'>lists</Nav.Link>
+                        <Nav.Link href="/#/profile" className='text-white'>profile</Nav.Link>
+                        <Nav.Link href="/#/login" className='text-white'>login</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container >

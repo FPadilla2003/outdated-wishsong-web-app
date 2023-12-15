@@ -1,6 +1,6 @@
 import React from 'react';
-import Nav from './nav';
-import Footer from './footer';
+import Nav from './menus/nav';
+import Footer from './menus/footer';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 

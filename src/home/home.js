@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from './nav';
+import Nav from '../menus/nav';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -7,8 +7,8 @@ import { FaSearch } from "react-icons/fa";
 import { SiGenius } from "react-icons/si";
 import { FaList } from "react-icons/fa6";
 
-import './style.css';
-import Footer from './footer';
+import '../styles/style.css';
+import Footer from '../menus/footer';
 
 function Home() {
     const introBoxStyle = {
