@@ -7,7 +7,7 @@ function SearchResults({ songResults }) {
 
     return (
         <div className='d-flex flex-column align-items-center w-75'>
-            <h2>results</h2>
+            {songResults.length > 0 && <h2>results</h2>}
             <ul className='list-group'>
                 {results}
             </ul>
