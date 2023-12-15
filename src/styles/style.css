@@ -87,6 +87,13 @@
     color: white;
 }
 
+.caret-dropdown {
+    color: black;
+    font-size: 50px;
+    outline: none;
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     font-family: 'Dela Gothic One', serif;

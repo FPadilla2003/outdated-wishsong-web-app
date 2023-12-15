@@ -21,6 +21,16 @@ function SearchResults({ songResults }) {
                         style={songImageStyle}
                         alt='song picture' />
                     <span className='w-100 h-100'>{songResult.result.full_title}</span>
+                    <div className='dropdown'>
+                        <button class="btn btn-default dropdown-toggle carat-dropdown"
+                            type="button" onClick={(e) => {
+                                e.stopPropagation();
+                                e.preventDefault();
+                            }}
+                            data-toggle="dropdown">
+                            <span class="caret"></span>
+                        </button>
+                    </div>
                 </a>
             </Col>
         </Row>));
